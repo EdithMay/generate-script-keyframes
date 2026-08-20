@@ -1,0 +1,13 @@
+interface:
+  display_name: 脚本关键帧生成
+  short_description: 从视频脚本Excel拆解子镜头、规划提示词并生成连续关键帧
+  default_prompt: 使用 $generate-script-keyframes 读取我的视频脚本 Excel，拆分子镜头并规划、生成关键帧。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
